@@ -21,15 +21,28 @@ class SettingsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func defaultTo15(_ sender: Any) {
+        let defaults = UserDefaults.standard
+        defaults.set(0.18, forKey: "defaultPercentage")
+        defaults.synchronize()
+        let percentage = defaults.float(forKey: "defaultPercentage")
+        print(percentage)
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
     }
-    */
+    
+    @IBAction func defaultTo20(_ sender: Any) {
+        let defaults = UserDefaults.standard
+        defaults.set(0.20, forKey: "defaultPercentage")
+        defaults.synchronize()
+        let percentage = defaults.float(forKey: "defaultPercentage")
+        print(percentage)
+    }
 
+    @IBAction func defaultTo25(_ sender: Any) {
+        let defaults = UserDefaults.standard
+        defaults.set(0.25, forKey: "defaultPercentage")
+        defaults.synchronize()
+        let percentage = defaults.float(forKey: "defaultPercentage")
+        print(percentage)
+    }
 }

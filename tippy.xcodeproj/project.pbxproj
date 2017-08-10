@@ -14,6 +14,7 @@
 		CC3B042E1F3A386400D57B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3B042C1F3A386400D57B9A /* LaunchScreen.storyboard */; };
 		CC3B04391F3A386400D57B9A /* tippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3B04381F3A386400D57B9A /* tippyTests.swift */; };
 		CC3B04441F3A386400D57B9A /* tippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3B04431F3A386400D57B9A /* tippyUITests.swift */; };
+		CC6402251F3BCC9C00BBA485 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6402241F3BCC9C00BBA485 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CC3B043F1F3A386400D57B9A /* tippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3B04431F3A386400D57B9A /* tippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tippyUITests.swift; sourceTree = "<group>"; };
 		CC3B04451F3A386400D57B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6402241F3BCC9C00BBA485 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CC3B042A1F3A386400D57B9A /* Assets.xcassets */,
 				CC3B042C1F3A386400D57B9A /* LaunchScreen.storyboard */,
 				CC3B042F1F3A386400D57B9A /* Info.plist */,
+				CC6402241F3BCC9C00BBA485 /* SettingsViewController.swift */,
 			);
 			path = tippy;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				CC3B04261F3A386400D57B9A /* ViewController.swift in Sources */,
 				CC3B04241F3A386400D57B9A /* AppDelegate.swift in Sources */,
+				CC6402251F3BCC9C00BBA485 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +509,7 @@
 				CC3B044A1F3A386400D57B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC3B044B1F3A386400D57B9A /* Build configuration list for PBXNativeTarget "tippyTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				CC3B044D1F3A386400D57B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC3B044E1F3A386400D57B9A /* Build configuration list for PBXNativeTarget "tippyUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				CC3B04501F3A386400D57B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

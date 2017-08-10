@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](demo.gif)
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -34,16 +34,16 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Question 1**: "What are your reactions to the iOS app development platform so far? How would you describe outlets and actions to another developer? Bonus: any idea how they are being implemented under the hood? (It might give you some ideas if you right-click on the Storyboard and click Open As->Source Code")
 
-**Answer:** [I am pleasantly impressed with XCode 8. After you click on the double ring to show the Assistant editor, depends on the which View is in focus, the matching ViewController appears. Outlet and action are both connections between UI elements in a storyboard and source code. Outlet is used when you want to refer to a view and action is used when you want to trigger some actions after certain events. The outlet and action are extracting value from view based on their IDs, my guess after viewing the XML source of Storyboard.]
+**Answer:** [Enter your answer here in a paragraph or two].
 
 Question 2: "Swift uses [Automatic Reference Counting](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html#//apple_ref/doc/uid/TP40014097-CH20-ID49) (ARC), which is not a garbage collector, to manage memory. Can you explain how you can get a strong reference cycle for closures? (There's a section explaining this concept in the link, how would you summarize as simply as possible?)"
 
-**Answer:** [Weak reference has the keyword “weak” in front of the instance declaration. Weak reference allows ARC to work. Strong reference, on the other hand, prevent application crash, by making a strong reference to the instance.]
+**Answer:** [Enter your answer here in a paragraph or two].
 
 
 ## License
 
-    Copyright [2017] [Codepath - Coco Matthey]
+    Copyright [yyyy] [name of copyright owner]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
